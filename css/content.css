@@ -1,0 +1,252 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: 0; }
+
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+a {
+  background-color: transparent; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+
+
+.content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+.skinny_wrapper {
+  width: 80%;
+  max-width: 760px;
+  margin: 0 auto; }
+
+.wrapper_padding {
+  padding: 4rem 0; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  color: #424652; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  /*font-size: 1.75rem;*/ }
+
+h4 {
+  font-size: 1.375rem; }
+
+h5 {
+  font-size: 1.25rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p, li {
+  font-size: 1.1rem;
+  line-height: 1.75; }
+
+p, ul, ol {
+  margin: 0 0 1.6em 0; }
+
+#post_wrapper {
+  padding: 1em 0 4em 0; }
+  #post_wrapper .post .iphoneX {
+    height: 600px;
+    width: auto;
+    margin-bottom: 2em; }
+  #post_wrapper .post img {
+    margin: 0 auto;
+    display: block; }
+  #post_wrapper .post h2 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    text-transform: uppercase; }
+  #post_wrapper .post hr {
+    text-align: center;
+    width: 12em;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #FF5C3A;
+    margin: 2rem auto; }
+  #post_wrapper .post p {
+    text-align: left; }
+  #post_wrapper .post .sub_post {
+    margin-top: 8em; }
+    #post_wrapper .post .sub_post h4 {
+      text-transform: uppercase;
+      font-size: 1.1em; }
+    #post_wrapper .post .sub_post p {
+      padding-bottom: 1.25em; }
+	
+  #post_wrapper .wip img{
+	float: left; 
+
+	margin-right:20px;
+	margin-bottom: 20px;
+	}
+	
+    
+#webProject {
+  width: 800px;
+  height: auto; }
+
+iframe {
+  display: block;
+  margin: 0 auto; }
+
+.poster_size {
+  width: 600px;
+  height: auto; }
+
+a {
+  color: #424652;
+  text-decoration: none;
+  font-size: 1rem; }
+  a:hover {
+    color: #EDA1D8; }
+
+.project_link {
+  text-align: center; }
+
+#main_navigation {
+  padding: 1.35em 5%;
+  border-bottom: 1px solid #E9E9E9; }
+  #main_navigation .name {
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    /*border: 2px solid $border;*/
+    padding: 1rem;
+    text-decoration: none;
+    color: #424652;
+    float: left; }
+  #main_navigation nav {
+    float: right;
+    padding-top: 1.5rem; }
+    #main_navigation nav a {
+      color: #424652;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1rem; }
+      #main_navigation nav a:hover {
+        color: #FF5C3A; }
+
+#main_footer {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 2.5em 5%;
+  border-top: 1px solid #E9E9E9; }
+  #main_footer .copyright {
+    float: left;
+    font-size: 0.9em;
+    margin: 0; }
+  #main_footer nav {
+    float: right; }
+    #main_footer nav i {
+      color: #424652;
+      margin-left: 1em;
+      padding-top: 0.2em; }
+      #main_footer nav i:hover {
+        color: #FF5C3A; }
+
+.col-1, .col-2, .col-3 {
+  float: left; }
+  .col-1 a, .col-2 a, .col-3 a {
+    text-decoration: none; }
+
+.col-1 {
+  width: 45%;
+  padding: 0 5% 0 2.5%; }
+
+.col-2, .col-3 {
+  width: 27.5%;
+  padding: 0 2.5%; }
+
+.homepage_content h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase; }
+
+.homepage_content hr {
+  width: 3em;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #FF5C3A;
+  margin: 2rem 0; }
+
+.homepage_content h3 {
+  font-size: 1.35em;
+  font-weight: 400;
+  margin-bottom: 0.5em; }
+
+.homepage_content .date {
+  font-size: 0.85em;
+  margin-bottom: 2em;
+  color: #9A9DA4; }
+
+.homepage_content p {
+  margin: 0 0 .75em 0; }
+
+.homepage_content a {
+  color: #424652; }
+  .homepage_content a:hover {
+    color: #FF5C3A; }
+
+.about {
+  padding: 0 7.5% 0 0; }
+  .about a {
+    color: #FF5C3A;
+    font-weight: 700; }
